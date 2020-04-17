@@ -17,10 +17,10 @@ import java.util.Map;
 @SpringBootApplication
 public class AescryptorApplication {
 
-    private static String CHAR_NAME = "UTF-8";
-    private static String SPEC_NAME = "AES";
-    private static String CIPHER_NAME = "AES/CBC/PKCS5Padding";
-    private static String SECURE_KEY = "35q97RxB6eGPLWBB";
+    private static final String CHAR_NAME = "UTF-8";
+    private static final String SPEC_NAME = "AES";
+    private static final String CIPHER_NAME = "AES/CBC/PKCS5Padding";
+    private static final String SECURE_KEY = "35q97RxB6eGPLWBB";
 
     public static void main(String[] args) throws JsonProcessingException {
         SpringApplication.run(AescryptorApplication.class, args);
